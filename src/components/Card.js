@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Headline from './Headline';
 import Logo from './Logo';
 import Message from './Message';
@@ -11,7 +10,7 @@ class Card extends React.Component {
     }
     render() {
         return (
-            <div className="card">
+            <div className="card_container">
                 <div className="main_section">
                     <Logo logoUrl={this.props.logoUrl} />
                     <Headline headline={this.props.headline}/>
